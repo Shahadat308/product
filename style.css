@@ -1,0 +1,728 @@
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 15px;
+    background-color: aliceblue;
+    border: 1px solid rgb(224, 222, 222);
+    height: 50px;
+    margin-left: 18px;
+    margin-right: 18px;
+
+}
+.container:visited, .container:link{
+	color:white;
+	text-decoration:none;
+	 
+}
+.container:hover{
+	box-shadow: 10px;
+	transition:0.3s ease;
+    box-shadow: 5px 5px 2px 2px rgb(207, 204, 204);
+    
+}
+
+.container h3 {
+    margin-left: 40px;
+}
+.container  h3:visited, .container h3:link{
+	color:white;
+	text-decoration:none;
+	font:regular;
+}
+.container h3:hover{
+	color:#ffbf00;
+	transition:0.2s ease;
+    
+}
+.container p {
+    margin-right: 40px;
+    margin-top: 22px;
+}
+.container  p:visited, .container p:link{
+	color:white;
+	text-decoration:none;
+	font:regular;
+    
+}
+.container p:hover{
+	color:#ffbf00;
+	transition:0.2s ease;
+    font-weight: bold;
+    
+}
+
+
+.upper_section{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+}
+.upper_section img {
+    height: 350px;
+    width: 315px;
+    
+    margin-top: 30px;
+    
+}
+
+.upper_section  img:visited, .upper_section img:link{
+	transform: scale(1);
+    transition: 0.3s ease-in-out;
+	
+    
+}
+.upper_section img:hover{
+	box-shadow: 2px 2px 2px 2px rgb(175, 172, 172);
+	transition:0.3s ease;
+    transform: scale(3); 
+    flex: 1 100%;
+}
+
+.featured {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 15px;
+    background-color: rgb(231, 236, 240);
+    border: 1px solid rgb(224, 222, 222);
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+.featured:visited, .featured:link{
+	color:white;
+	text-decoration:none;
+	 
+}
+.featured:hover{
+	box-shadow: 10px;
+	transition:0.3s ease;
+    box-shadow: 5px 5px 2px 2px rgb(207, 204, 204);
+    
+}
+
+.featured h3 {
+    margin-left: 40px;
+}
+.featured  h3:visited, .featured h3:link{
+	color:white;
+	text-decoration:none;
+	
+    
+}
+.featured h3:hover{
+	box-shadow: 10px;
+	transition:0.3s ease;
+    color:#ffbf00;
+    
+}
+
+.featured p {
+    margin-right: 40px;
+    margin-top: 22px;
+}
+.featured  p:visited, .featured p:link{
+	color:white;
+	text-decoration:none;
+	font:regular;
+    
+}
+.featured p:hover{
+	color:#ffbf00;
+	transition:0.2s ease;
+    font-weight: bold;
+    
+}
+
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    margin: -5px 0;
+    
+    
+   
+}
+
+
+.hero img {
+    height: 135px;
+    width: 172px;
+    display: flex;
+
+}
+.hero img:visited, .hero img:link{
+	transform: scale(1);
+    transition: 0.3s ease-in-out;
+    
+}
+.hero img:hover{
+	transform: scale(1.5); 
+   
+}
+.container1 {
+    display: flex;
+    gap: 10px;
+    border: 1px solid rgb(223, 220, 220);
+    
+    margin: 20px;
+    padding: 10px;
+    gap:10px;
+    
+}
+.container1:visited, .container1:link{
+	color:white;
+	text-decoration:none;
+	font:regular;
+    
+}
+.container1:hover{
+	box-shadow: 2px 5.5px 5.5px 2px rgb(203, 203, 206);
+	transition:0.2s ease;
+    
+    
+}
+.one p{
+    text-align: justify;
+    width: 200px;
+    margin-top: 10px;
+   
+}
+.one p:visited, .one p:link{
+	color:white;
+	text-decoration:none;
+	font:regular;
+    
+}
+.one p:hover{
+	font-size: 20px;
+	transition:0.2s ease;
+    font-weight: bold; 
+}
+.container2 {
+    display: flex;
+    border: 1px solid rgb(223, 220, 220);
+   
+    padding: 10px;
+    margin: 20px;
+    gap:10px;
+}
+.container2:visited, .container2:link{
+	color:white;
+	text-decoration:none;
+	font:regular;
+    
+}
+.container2:hover{
+	box-shadow: 2px 5.5px 5.5px 2px rgb(203, 203, 206);
+	transition:0.2s ease;
+    
+    
+}
+.two p{
+    text-align: justify;
+    width: 200px;
+    margin-top: 10px;
+}
+.two p:visited, .two p:link{
+	color:white;
+	text-decoration:none;
+	font:regular;
+    
+}
+.two p:hover{
+	font-size: 20px;
+	transition:0.2s ease;
+    font-weight: bold; 
+}
+.container3 {
+    display: flex;
+    border: 1px solid rgb(223, 220, 220);
+    
+    padding: 10px;
+    margin: 20px;
+    gap:10px;
+
+}
+.container3:visited, .container3:link{
+	color:white;
+	text-decoration:none;
+	font:regular;
+    
+}
+.container3:hover{
+	box-shadow: 2px 5.5px 5.5px 2px rgb(203, 203, 206);
+	transition:0.2s ease;
+    
+    
+}
+.three p{
+    text-align: justify;
+    width: 200px;
+    margin-top: 10px;
+}
+.three p:visited, .three p:link{
+	color:white;
+	text-decoration:none;
+	font:regular;
+    
+}
+.three p:hover{
+	font-size: 20px;
+	transition:0.2s ease;
+    font-weight: bold; 
+}
+.container4 {
+    display: flex;
+    border: 1px solid rgb(223, 220, 220);
+    
+    padding: 10px;
+    margin: 20px;
+    gap:10px;
+}
+.container4:visited, .container4:link{
+	color:white;
+	text-decoration:none;
+	font:regular;
+    
+}
+.container4:hover{
+	box-shadow: 2px 5.5px 5.5px 2px rgb(203, 203, 206);
+	transition:0.2s ease;
+    
+    
+}
+.four p{
+    text-align: justify;
+    width: 200px;
+    margin-top: 10px;
+}
+.four p:visited, .four p:link{
+	color:white;
+	text-decoration:none;
+	font:regular;
+    
+}
+.four p:hover{
+	font-size: 20px;
+	transition:0.2s ease;
+    font-weight: bold; 
+}
+.container5 {
+    display: flex;
+    border: 1px solid rgb(223, 220, 220);
+    
+    padding: 10px;
+    margin: 20px;
+    gap:10px;
+}
+.container5:visited, .container5:link{
+	color:white;
+	text-decoration:none;
+	font:regular;
+    
+}
+.container5:hover{
+	box-shadow: 2px 5.5px 5.5px 2px rgb(203, 203, 206);
+	transition:0.2s ease;
+    
+    
+}
+.five p{
+    text-align: justify;
+    width: 200px;
+    margin-top: 10px;
+}
+.five p:visited, .five p:link{
+	color:white;
+	text-decoration:none;
+	font:regular;
+    
+}
+.five p:hover{
+	font-size: 20px;
+	transition:0.2s ease;
+    font-weight: bold; 
+}
+.container6 {
+    display: flex;
+    border: 1px solid rgb(223, 220, 220);
+    
+    padding: 10px;
+    margin: 20px;
+    gap:10px;
+}
+.container6:visited, .container6:link{
+	color:white;
+	text-decoration:none;
+	font:regular;
+    
+}
+.container6:hover{
+	box-shadow: 2px 5.5px 5.5px 2px rgb(203, 203, 206);
+	transition:0.2s ease;
+    
+    
+}
+.six p{
+    text-align: justify;
+    width: 200px;
+    margin-top: 10px;
+}
+.six p:visited, .six p:link{
+	color:white;
+	text-decoration:none;
+	font:regular;
+    
+}
+.six p:hover{
+	font-size: 20px;
+	transition:0.2s ease;
+    font-weight: bold; 
+}
+.container7 {
+    display: flex;
+    border: 1px solid rgb(223, 220, 220);
+    
+    padding: 10px;
+    margin: 20px;
+    gap:10px;
+}
+.container7:visited, .container7:link{
+	color:white;
+	text-decoration:none;
+	font:regular;
+    
+}
+.container7:hover{
+	box-shadow: 2px 5.5px 5.5px 2px rgb(203, 203, 206);
+	transition:0.2s ease;
+    
+    
+}
+.seven p{
+    text-align: justify;
+    width: 200px;
+    margin-top: 10px;
+}
+.seven p:visited, .seven p:link{
+	color:white;
+	text-decoration:none;
+	font:regular;
+    
+}
+.seven p:hover{
+	font-size: 20px;
+	transition:0.2s ease;
+    font-weight: bold; 
+}
+
+.container8 {
+    display: flex;
+    border: 1px solid rgb(223, 220, 220);
+    
+    padding: 10px;
+    margin: 20px;
+    gap:10px;
+}
+.container8:visited, .container8:link{
+	color:white;
+	text-decoration:none;
+	font:regular;
+    
+}
+.container8:hover{
+	box-shadow: 2px 5.5px 5.5px 2px rgb(203, 203, 206);
+	transition:0.2s ease;
+    
+    
+}
+.eight p{
+    text-align: justify;
+    width: 200px;
+    margin-top: 10px;
+}
+.eight p:visited, .eight p:link{
+	color:white;
+	text-decoration:none;
+	font:regular;
+    
+}
+.eight p:hover{
+	font-size: 20px;
+	transition:0.2s ease;
+    font-weight: bold; 
+}
+
+.container9 {
+    display: flex;
+    border: 1px solid rgb(223, 220, 220);
+    
+    padding: 10px;
+    margin: 20px;
+    gap:10px;
+}
+.container9:visited, .container9:link{
+	color:white;
+	text-decoration:none;
+	font:regular;
+    
+}
+.container9:hover{
+	box-shadow: 2px 5.5px 5.5px 2px rgb(203, 203, 206);
+	transition:0.2s ease;
+    
+    
+}
+.nine p{
+    text-align: justify;
+    width: 200px;
+    margin-top: 10px;
+}
+.nine p:visited, .nine p:link{
+	color:white;
+	text-decoration:none;
+	font:regular;
+    
+}
+.nine p:hover{
+	font-size: 20px;
+	transition:0.2s ease;
+    font-weight: bold; 
+}
+
+.container10 {
+    display: flex;
+    border: 1px solid rgb(223, 220, 220);
+    
+    padding: 10px;
+    margin: 20px;
+    gap:10px;
+}
+.container10:visited, .container10:link{
+	color:white;
+	text-decoration:none;
+	font:regular;
+    
+}
+.container10:hover{
+	box-shadow: 2px 5.5px 5.5px 2px rgb(203, 203, 206);
+	transition:0.2s ease;
+    
+    
+}
+.ten p{
+    text-align: justify;
+    width: 200px;
+    margin-top: 10px;
+}
+.ten p:visited, .ten p:link{
+	color:white;
+	text-decoration:none;
+	font:regular;
+    
+}
+.ten p:hover{
+	font-size: 20px;
+	transition:0.2s ease;
+    font-weight: bold; 
+}
+.container11 {
+    display: flex;
+    border: 1px solid rgb(223, 220, 220);
+    
+    padding: 10px;
+    margin: 20px;
+    gap:10px;
+}
+.container11:visited, .container11:link{
+	color:white;
+	text-decoration:none;
+	font:regular;
+    
+}
+.container11:hover{
+	box-shadow: 2px 5.5px 5.5px 2px rgb(203, 203, 206);
+	transition:0.2s ease;
+    
+    
+}
+.eleven p{
+    text-align: justify;
+    width: 200px;
+    margin-top: 10px;
+}
+.eleven p:visited, .eleven p:link{
+	color:white;
+	text-decoration:none;
+	font:regular;
+    
+}
+.eleven p:hover{
+	font-size: 20px;
+	transition:0.2s ease;
+    font-weight: bold; 
+}
+.container12 {
+    display: flex;
+    border: 1px solid rgb(223, 220, 220);
+    
+    padding: 10px;
+    margin: 20px;
+    gap:10px;
+}
+.container12:visited, .container12:link{
+	color:white;
+	text-decoration:none;
+	font:regular;
+    
+}
+.container12:hover{
+	box-shadow: 2px 5.5px 5.5px 2px rgb(203, 203, 206);
+	transition:0.2s ease;
+    
+    
+}
+.twelev p{
+    text-align: justify;
+    width: 200px;
+    margin-top: 10px;
+}
+.twelev p:visited, .twelev p:link{
+	color:white;
+	text-decoration:none;
+	font:regular;
+    
+}
+.twelev p:hover{
+	font-size: 20px;
+	transition:0.2s ease;
+    font-weight: bold; 
+}
+.container13 {
+    display: flex;
+    border: 1px solid rgb(223, 220, 220);
+    
+    padding: 10px;
+    margin: 20px;
+    gap:10px;
+}
+.container13:visited, .container13:link{
+	color:white;
+	text-decoration:none;
+	font:regular;
+    
+}
+.container13:hover{
+	box-shadow: 2px 5.5px 5.5px 2px rgb(203, 203, 206);
+	transition:0.2s ease;
+    
+    
+}
+.thirteen p{
+    text-align: justify;
+    width: 200px;
+    margin-top: 10px;
+}
+.thirteen p:visited, .thirteen p:link{
+	color:white;
+	text-decoration:none;
+	font:regular;
+    
+}
+.thirteen p:hover{
+	font-size: 20px;
+	transition:0.2s ease;
+    font-weight: bold; 
+}
+.container14 {
+    display: flex;
+    border: 1px solid rgb(223, 220, 220);
+    
+    padding: 10px;
+    margin: 20px;
+    gap:10px;
+}
+.container14:visited, .container14:link{
+	color:white;
+	text-decoration:none;
+	font:regular;
+    
+}
+.container14:hover{
+	box-shadow: 2px 5.5px 5.5px 2px rgb(203, 203, 206);
+	transition:0.2s ease;
+    
+    
+}
+.fourteen p{
+    text-align: justify;
+    width: 200px;
+    margin-top: 10px;
+}
+.fourteen p:visited, .fourteen p:link{
+	color:white;
+	text-decoration:none;
+	font:regular;
+    
+}
+.fourteen p:hover{
+	font-size: 20px;
+	transition:0.2s ease;
+    font-weight: bold; 
+}
+.container15 {
+    display: flex;
+    border: 1px solid rgb(223, 220, 220);
+   
+    padding: 10px;
+    margin: 20px;
+    gap:10px;
+}
+.container15:visited, .container15:link{
+	color:white;
+	text-decoration:none;
+	font:regular;
+    
+}
+.container15:hover{
+	box-shadow: 2px 5.5px 5.5px 2px rgb(203, 203, 206);
+	transition:0.2s ease;
+    
+    
+}
+.fifteen p{
+    text-align: justify;
+    width: 200px;
+    margin-top: 10px;
+    
+}
+.fifteen p:visited, .fifteen p:link{
+	color:white;
+	text-decoration:none;
+	font:regular;
+    
+}
+.fifteen p:hover{
+	font-size: 20px;
+	transition:0.2s ease;
+    font-weight: bold; 
+}
+
+.footer{
+    background-color: rgb(208, 212, 214);
+    height: 30px;
+    padding:5px;
+    text-align: center;
+    justify-items: auto;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+.footer p{
+    justify-content: space-around;
+    margin-top: 10px;
+}
